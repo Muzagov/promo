@@ -1,0 +1,69 @@
+.affordable {
+  background-image: url("../../../../../assets/fabian-grohs-XMFZqrGyV-Q-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.common{
+  margin-top: 350px;
+  color: #fff;
+  text-align: center;
+}
+
+.heading {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+}
+
+.name {
+  font-family: 'Nunito', serif;
+  font-size: 4em;
+}
+
+.btn {
+  width: 220px;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #1c2541;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+  .affordable {
+    background-image: url("../../../../../assets/images/fabian-grohs-XMFZqrGyV-Q-unsplash400x400.jpg");
+    height: 400px;
+    max-width: 400px;
+  }
+
+  .common {
+    margin-top: 50px;
+  }
+
+  .heading {
+    font-size: 1.9em;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 1.9em;
+  }
+
+
+
+
+
+}

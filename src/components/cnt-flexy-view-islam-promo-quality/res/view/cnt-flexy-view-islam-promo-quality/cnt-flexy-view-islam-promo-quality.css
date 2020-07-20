@@ -1,0 +1,56 @@
+.quality {
+  padding-top: 50px;
+  margin-bottom: 70px;
+}
+
+.common {
+  background-color: #3a506b;
+  text-align: center;
+  color: white;
+  padding: 30px 20px 0 20px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.common:hover {
+  background-color: #1c2541;
+  transition: .5s;
+  color: white;
+}
+
+.title {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+.title:hover {
+  color: #aab2b9;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 16px;
+  color: #bebebe;
+  margin-top: 20px;
+}
+
+.briefcase {
+ font-size: 50px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .common {
+    margin-top: 20px;
+    max-width: 400px;
+  }
+
+}

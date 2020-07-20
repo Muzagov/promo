@@ -1,0 +1,165 @@
+.footer {
+  padding-top: 70px;
+  background-color: #3a506b;
+  padding-bottom: 30px;
+}
+
+.contact {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.phoneIcon,
+.letterIcon,
+.mapMarkerIcon {
+  color: #bebebe;
+  margin-top: 25px;
+}
+
+.phone,
+.letter,
+.location {
+  color: #bebebe;
+  cursor: pointer;
+  padding-left: 7px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.phone:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.letter:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.location:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.icons {
+  display: flex;
+  margin-top: 20px
+}
+
+.vk,
+.instagram,
+.twitter,
+.facebook,
+.youtube {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.vk {
+  border: #5180b8;
+  background-color: #5180b8;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.instagram {
+  border: #9433c8;
+  background: linear-gradient(45deg, #fdcc52, #9433c8);
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+
+.twitter {
+  border: #00aeee;
+  background-color: #00aeee;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+
+.facebook {
+  border: #3a5898;
+  background-color: #3a5898;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+
+.youtube {
+  border: #ff0000;
+  background-color: #ff0000;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+
+.my-link {
+  color: #bebebe;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.my-link:hover {
+  color: #fff;
+  transition: .3s;
+}
+
+.link {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.input {
+  width: 250px;
+  height: 50px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #b7b7b7;
+  background-color: transparent;
+  transition: .3s ease-in-out;
+  border-bottom: 1px solid #e0e0e0
+}
+
+.btn {
+  width: 130px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #e0e0e0;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+  .footer {
+    display: none;
+  }
+
+
+}
+

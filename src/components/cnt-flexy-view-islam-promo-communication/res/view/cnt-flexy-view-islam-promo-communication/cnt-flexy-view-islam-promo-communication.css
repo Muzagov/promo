@@ -1,0 +1,90 @@
+.communication {
+  background-color: #3a506b;
+  height: 50px;
+}
+
+.phoneIcon,
+.letterIcon,
+.mapMarkerIcon,
+.linkedinIcon,
+.twitterIcon,
+.facebookIcon,
+.instagramIcon {
+  color: #bebebe;
+  margin-top: 13px;
+}
+
+.phone,
+.letter,
+.location {
+  color: #bebebe;
+  cursor: pointer;
+  padding-left: 7px;
+  margin-top: 13px;
+  text-decoration: none;
+}
+
+.letterIcon {
+  margin-left: 30px;
+}
+
+.mapMarkerIcon {
+  margin-left: 30px;
+}
+
+.phone:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.letter:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.location:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.icons {
+  justify-content: end;
+}
+
+.linkedinIcon,
+.twitterIcon,
+.facebookIcon,
+.instagramIcon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.linkedinIcon:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.facebookIcon:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.twitterIcon:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.instagramIcon:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+ .communication {
+   display: none;
+ }
+
+}

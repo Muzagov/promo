@@ -1,0 +1,58 @@
+.opportunities {
+  padding-top: 70px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.icon,
+.icon1 {
+  font-size: 4.5em;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 30px;
+}
+
+.icon1 {
+  padding-top: 40px;
+  font-size: 4.2em;
+}
+
+.title {
+  font-weight: 400;
+  font-family: 'Nunito', serif;
+}
+
+.heading {
+  margin-bottom: 50px;
+}
+
+.common {
+  background-color: #3a506b;
+  width: 350px;
+  height: 250px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 70px;
+}
+
+.common:hover {
+  background-color: #1c2541;
+  transition: .5s;
+}
+
+.text {
+  font-size: 1em;
+  color: #bebebe;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  .opportunities {
+    max-width: 400px;
+  }
+
+  .common {
+    width: 370px;
+  }
+}
